@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>As Yarrow Unfolds</title>
+</head>
+<body>
+
+<div class="nav">
+    <div class="title"><h1>As Yarrow Unfolds</h1></div>
+    <div class="menu"></div>
+</div>
+
+<div class="main">
+    <div class="characters"><p>Characters</p></div>
+    <div class="npcs"><p>NPCs</p></div>
+    <div class="skills"><p>Skills</p></div>
+    <div class="stores"><p>Stores</p></div>
+    <div class="quests"><p>Quests</p></div>
+    <div class="notes"><p>Important Notes</p></div>
+</div>
+
+
+
+</body>
+</html>
