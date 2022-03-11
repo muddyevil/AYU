@@ -1,0 +1,32 @@
+body {
+    background-color: #FFF1E6;
+};
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+};
+
+.title {
+    background-color: #F0EFEB;
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+};
+
+.row {
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.skill, .npc {
+    padding: 20px;
+    margin: 20px;
+}
+
+#skill_title, #npc_title {
+    background-color: #DDBEA9;
+}
