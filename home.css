@@ -22,3 +22,9 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+.characters, .npcs, .skills, .stores, .quests, .notes {
+    background-color: #DDBEA9;
+    text-align: center;
+    border: 5px solid #CB997E;
+}
