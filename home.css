@@ -1,31 +1,34 @@
 body {
     background-color: #FFF1E6;
-}
+};
 
 .nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+};
 
 .title {
     background-color: #F0EFEB;
     text-align: center;
     font-size: 35px;
     padding: 30px;
-}
+};
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+    justify-content: center;
+};
 
 .characters, .npcs, .skills, .stores, .quests, .notes {
     background-color: #DDBEA9;
     text-align: center;
     border: 5px solid #CB997E;
-    font-size: 20px;
-}
+    border-radius: 5px;
+    font-size: 42px;
+    padding: 50px;
+    margin: 15px;
+};
