@@ -5,18 +5,25 @@
 </head>
 <body>
 
+<!-- colours: CB997E, EDDCD2, FFF1E6, F0EFEB, DDBEA9. A5A58D, B7B7A4-->
+
 <div class="nav">
     <div class="title"><h1>As Yarrow Unfolds</h1></div>
     <div class="menu"></div>
 </div>
 
+
 <div class="main">
-    <div class="characters"><p>Characters</p></div>
-    <div class="npcs"><p>NPCs</p></div>
-    <div class="skills"><p>Skills</p></div>
-    <div class="stores"><p>Stores</p></div>
-    <div class="quests"><p>Quests</p></div>
-    <div class="notes"><p>Important Notes</p></div>
+    <div class="row">
+        <div class="characters"><p>Characters</p></div>
+        <div class="npcs"><p>NPCs</p></div>
+        <div class="skills"><p>Skills</p></div>
+    </div>
+    <div class="row">
+        <div class="stores"><p>Stores</p></div>
+        <div class="quests"><p>Quests</p></div>
+        <div class="notes"><p>Important Notes</p></div>
+    </div>
 </div>
 
 
