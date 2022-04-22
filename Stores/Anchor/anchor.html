@@ -3,11 +3,12 @@
 <head>
 <title>Anchor Bar and Grill</title>
 <link href="anchor.css" rel="stylesheet" type="text/css">
+<script src="anchor.js"></script>
 </head>
 
 <body>
 
-<div>
+<div class="npcs">
     <h2>NPCs</h2>
     <hr>
     <label for="kirsten">Kirsten</label>
@@ -18,26 +19,26 @@
 
 
     <div class="row">
-        <div id="breakfast" class="column">
+        <div id="breakfast" class="column" onclick="toggleBreakfast();">
             <p>Breakfast</p>
         </div>
 
     
-        <div id="lunch" class="column">
+        <div id="lunch" class="column" onclick="toggleLunch();">
             <p>Lunch</p>
         </div>
     
-        <div id="dinner" class="column">
+        <div id="dinner" class="column" onclick="toggleDinner();">
             <p>Dinner</p>
         </div>
 
     
-        <div id="drinks" class="column">
+        <div id="drinks" class="column" onclick="toggleDrinks();">
             <p>Drinks</p>
         </div>
     </div>
 
-<div class="breakfast">
+<div id="breakfastMenu">
     <table>
         <tr>
             <td>Meat Sticks</td>
@@ -74,7 +75,7 @@
     </table>
 </div>
 
-<div class="lunch">
+<div id="lunchMenu">
     <table>
         <tr>
             <td>Stockpot Stew</td>
@@ -112,7 +113,7 @@
 </div>
 
 
-<div class="dinner">
+<div id="dinnerMenu">
     <table>
         <tr>
             <td>Stockpot Stew</td>
@@ -149,7 +150,7 @@
     </table>
 </div>
 
-<div class="Beverages">
+<div id="drinksMenu">
     <div class="nonalcoholic">
         <h3>Non-Alcoholic</h3>
         <table>

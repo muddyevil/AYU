@@ -47,6 +47,10 @@ body {
     
 /* Anchor CSS */
 
+#breakfastMenu, #lunchMenu, #dinnerMenu, #drinksMenu {
+    display: none;
+}
+
 #breakfast:hover {
     background-color: chocolate;
 }
